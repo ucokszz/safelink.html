@@ -97,11 +97,11 @@ var protected_links = "";
 var a_to_va = 0;
 var a_to_vb = 0;
 var a_to_vc = "";
-
+ 
 function auto_safelink() {
     auto_safeconvert();
 }
-
+ 
 function auto_safeconvert() {
     var a_to_vd = window.location.hostname;
     if (protected_links != "" && !protected_links.match(a_to_vd)) {
@@ -146,7 +146,7 @@ function auto_safeconvert() {
         a_to_vk.innerHTML += a_to_va;
     }
 }
-
+ 
 function a_to_fa() {
     var a_to_vf = new Array();
     protected_links = protected_links.replace(" ", "");
